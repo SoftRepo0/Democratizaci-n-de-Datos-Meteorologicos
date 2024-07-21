@@ -11,15 +11,15 @@ Mauricio Rojas
 Marcell Adams
 
 Elkin Montoya
-
-<objetivos>
+<details>
 Este programa tiene como objetivo extraer data de scans de documentos con datos meteorológicos. Fue realizado durante el evento Hackathon CoAfina 2024 por el grupo D.N.D.
-</objetivos>
+</details>
+
 
 El programa tambien es adaptable para buscar otros textos o caracteres en documentos con distinta precision.
 
 <implementacion>
-El programa implementa Tesseract OCR e implementa ideas de John Scancella [1]
+El programa implementa Tesseract OCR y aplica ideas de John Scancella [1]
 Fue probado con las siguientes dependencias:
 
   pytesseract  0.3.10 
@@ -56,19 +56,8 @@ El programa creará un archivo llamado "nombre del archivo"_Resultado.txt con el
 
 https://medium.com/@blacksmithforlife/better-ocr-for-newspapers-c7c1e2788b7a
 
-## Programa
-1) El programa consta de un directorio llamado Proyecto el cual contiene:
-- Dos directorios, Program y zchaff.
-- Tres archivos bash, Creador, Solver y Automatico.
-- Dos archivos de textos, Instancia e InstanciasSudokus.
 
-2) El directorio Program es el que contiene los traductores de Sudoku a CNF (TSB), de CNF a Sudoku (TBS) y el proceso de automatizaciÃ³n.
 
-3) El directorio zchaff es el que contiene el resolvedor de SAT proporcionado por [[1]](https://www.princeton.edu/~chaff/zchaff.html).
-
-4) El bash Creador es el que se encarga de compilar todas las rutinas necesarias, el bash Solver es el que se encarga de reportar la soluciÃ³n. El bash Automatico se encarga de reportar varias soluciones.
-
-5) El archivo de texto Instancia es el que contiene el sudoku a resolver, mientras que el archivo InstanciasSudokus es el que contiene varios sudokus para resolverse de forma automÃ¡tica.
 ### Instrucciones
 1) (Opcional) Cambie los permisos de los archivos bash para que sean ejecutables por el usuario:
 
