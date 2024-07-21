@@ -2,11 +2,11 @@
 Proyecto de Hackathon
 #  [2024.07.21]	D.N.D
 <autores>
-##	Raffaella Martinez
-##	David Bellorin
-##	MAuricio Rojas
-##	Marcell Adams
-##	Elkin Montoya
+Raffaella Martinez
+David Bellorin
+Mauricio Rojas
+Marcell Adams
+Elkin Montoya
 </autores>
 <objetivos>
 Este programa tiene como objetivo extraer data de scans de documentos con datos meteorológicos. Fue realizado durante el evento Hackathon CoAfina 2024 por el grupo D.N.D.
@@ -25,7 +25,8 @@ Fue probado con las siguientes dependencias:
   NumPy        2.0.0
 	
 </implementacion>
-Es necesario un compilador de C++ 17. El programa escaneará el archivo, convertirlo en un archivo de texto y luego buscar las coincidencias con el diccionario 
+<requerimientos>
+Es necesario un compilador de C++ 17. El programa escaneará el archivo con el motor Tesseract implementado por Pytesseract, convertirlo en un archivo de texto, busca las coincidencias de éste con un diccionario 
 
 Al correr el programa es necesario especificar el archivo a analizar y el diccionario de palabras a buscar en formato txt: "Palabras.txt". El programa distingue entre mayusculas y minusculas.
 
@@ -47,6 +48,7 @@ El programa creará un archivo llamado "nombre del archivo"_Resultado.txt con el
   		Palabra:  palabra2
 		    Fila   Columna
 		      n5     n6   
+</requerimientos>
 
 https://medium.com/@blacksmithforlife/better-ocr-for-newspapers-c7c1e2788b7a
 
@@ -72,29 +74,11 @@ https://medium.com/@blacksmithforlife/better-ocr-for-newspapers-c7c1e2788b7a
 
 2) Ejecute el archivo Creador.sh.
 
-		./Creador.sh
-		
-3) Suponga que quiere resolver el siguiente sudoku:
-
-|1|2|0|0|
-|-|-|-|-|
-|3|4|1|2|
-|2|3|4|1|
-|4|1|2|3|
-
-En el archivo de Texto Coloque el Sudoku que quiere resolver en el siguiente formato:
-
->2 1-2-0-0-3-4-1-2-2-3-4-1-4-1-2-3
+	
 
 El primer nÃºmero es el orden del sudoku. Seguido de un espacio, se encuentran los nÃºmeros de las casillas del tablero de sudoku separados por guiones, siguiendo el orden de izquierda a derecha y arriba hacia abajo, donde los 0 representan las casillas con espacios vacÃ­os.
 
-4) Ejecute el Archivo Solver.sh para resolver el sudoku.
-
-		./Solver.sh
-
-5) La soluciÃ³n la encontrara en el archivo de texto SoluciÃ³n, el cual le mostrara el sudoku que querÃ­a resolver seguido de la soluciÃ³n.  En caso de que no haya soluciÃ³n, saldrÃ¡ "Irresoluble".
-
-6) Si desea resolver varios sudokus, colÃ³quelos en un archivo de texto (e.g. InstanciasSudoku.txt) en el mismo formato presentado anteriormente y uno por lÃ­nea. A continuaciÃ³n, ejecute el archivo Automatico.sh para resolverlos todos: 
+chivo Automatico.sh para resolverlos todos: 
 
 		./Automatico.sh
 
