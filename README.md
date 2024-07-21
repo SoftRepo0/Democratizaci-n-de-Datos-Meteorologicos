@@ -40,8 +40,9 @@ Fue probado con las siguientes dependencias:
 Es necesario un compilador de C++ 17, Tesseract OCR y Pytesseract. El programa escaneará el archivo con el motor Tesseract implementado por Pytesseract, lo convertirá en un archivo de texto, buscará las coincidencias de éste con un diccionario y escribirá un archivo de resultados con una lista de las coincidencias y su posición en el archivo de texto.
 
 ### Instrucciones
+#### Read PDF
 
-
+Lee los documentos en una carpeta, los convierte en archivos .txt y los organiza en carpetas. Estos archivos se analizan utiilzando el programa Word_ID.cpp. El prgrama analiza las páginas en la dirección en la que están escaneadas, y rotadas 90°, ya que algunas de las tablas en los documentos se encuentran rotadas. Esto permite determinar la orientación ideal para poder extraer el texto correctamente. 
 
 #### Word_ID.cpp
 Al correr el programa es necesario especificar el archivo a analizar y el diccionario de palabras a buscar en formato txt: "Palabras.txt". El programa distingue entre mayusculas y minusculas.
@@ -77,7 +78,9 @@ Una vez identificadas los pdf con información de interés, utilizar el programa
 ##	Referencias
 
 [1] https://medium.com/@blacksmithforlife/better-ocr-for-newspapers-c7c1e2788b7a
+
 [2] https://stackoverflow.com/questions/71902322/complete-missing-lines-in-table-opencv
+
 [3] https://medium.com/coinmonks/a-box-detection-algorithm-for-any-image-containing-boxes-756c15d7ed26
 
 
