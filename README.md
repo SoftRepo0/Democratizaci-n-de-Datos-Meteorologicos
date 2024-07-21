@@ -41,6 +41,9 @@ Es necesario un compilador de C++ 17, Tesseract OCR y Pytesseract. El programa e
 
 ### Instrucciones
 
+
+
+#### Word_ID.cpp
 Al correr el programa es necesario especificar el archivo a analizar y el diccionario de palabras a buscar en formato txt: "Palabras.txt". El programa distingue entre mayusculas y minusculas.
 
 El diccionario debe estar escrito en el siguiente formato:
@@ -63,7 +66,7 @@ El programa creará un archivo llamado * "nombre del archivo"_Resultado.txt * co
 			n5     n6   
 
 Donde los números **nx** son las posiciones en el archivo de texto resultante del OCR
-
+#### Extract_Table.py
 Una vez identificadas los pdf con información de interés, utilizar el programa "Extract_Table.py" e indicarle el nombre del pdf con la página de la cual se quiere extraer información. Este devolverá 
 1. imagen de la tabla extraída
 
