@@ -3,9 +3,13 @@ Proyecto de Hackathon
 #  [2024.07.21]	D.N.D
 
 Raffaella Martinez
+
 David Bellorin
+
 Mauricio Rojas
+
 Marcell Adams
+
 Elkin Montoya
 
 <objetivos>
