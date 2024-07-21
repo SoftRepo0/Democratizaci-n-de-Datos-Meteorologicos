@@ -1,13 +1,13 @@
 # Democratizaci-n-de-Datos-Meteorologicos
 Proyecto de Hackathon
 #  [2024.07.21]	D.N.D
-<autores>
+
 Raffaella Martinez
 David Bellorin
 Mauricio Rojas
 Marcell Adams
 Elkin Montoya
-</autores>
+
 <objetivos>
 Este programa tiene como objetivo extraer data de scans de documentos con datos meteorológicos. Fue realizado durante el evento Hackathon CoAfina 2024 por el grupo D.N.D.
 </objetivos>
@@ -15,7 +15,7 @@ Este programa tiene como objetivo extraer data de scans de documentos con datos 
 El programa tambien es adaptable para buscar otros textos o caracteres en documentos con distinta precision.
 
 <implementacion>
-El programa implementa Tesseract OCR e implementa ideas de John Scanella [1]
+El programa implementa Tesseract OCR e implementa ideas de John Scancella [1]
 Fue probado con las siguientes dependencias:
 
   pytesseract  0.3.10 
