@@ -39,9 +39,9 @@ El diccionario debe estar escrito en el siguiente formato:
 		palabra2 b
 		palabra3 c
   
-y sucesivamente. 'a', 'b', 'c', etc. son los umbrales de precisión, separados de las palabras por **un** espacio *precisamente* y *sin espacios o lineas al final*. Dado que no es factible esperar que el OCR traduzca fielmente todas las palabras es posible que "temperatura", se capture como "temp*o*ra*+*ura", por lo tanto es necesario especificar cuantos caracteres se espera que coincidan. Documentos de menor calidad son más probables en resultar en transducciones erroneas pero al mismo tiempo un unbrál muy bajo resultaría en falso positivos que dependiendo de la palabra pueden obviar el objetivo del programa. 
+y sucesivamente. *'a'* , * 'b' * ,* 'c'* , etc. son los umbrales de precisión, separados de las palabras por **un** espacio *precisamente* y *sin espacios o lineas al final*. Dado que no es factible esperar que el OCR traduzca fielmente todas las palabras es posible que "temperatura", se capture como "temp*o*ra+ura", por lo tanto es necesario especificar cuantos caracteres se espera que coincidan. Documentos de menor calidad son más probables en resultar en transducciones erroneas pero al mismo tiempo un umbrál muy bajo resultaría en falso positivos que, dependiendo de la palabra, pueden obviar el objetivo del programa. 
 
-El programa creará un archivo llamado "nombre del archivo"_Resultado.txt con el siguiente formato:
+El programa creará un archivo llamado * "nombre del archivo"_Resultado.txt * con el siguiente formato:
 
 	Archivo: nombre del archivo
 		Palabra: palabra1
@@ -51,6 +51,8 @@ El programa creará un archivo llamado "nombre del archivo"_Resultado.txt con el
   		Palabra:  palabra2
 			Fila   Columna
 			n5     n6   
+
+Donde los números **nx** son las posiciones en el archivo de texto resultante del OCR
 
 ##	Referencias
 
