@@ -1,7 +1,7 @@
 # Democratizaci-n-de-Datos-Meteorologicos
-Proyecto de Hackathon
-#  [2024.07.21]	D.N.D
-##	D.N.D está conformado pro:
+##	Proyecto de Hackathon
+###  [2024.07.21]	D.N.D
+###	D.N.D está conformado pro:
 Raffaella Martinez
 
 David Bellorin
@@ -11,6 +11,7 @@ Mauricio Rojas
 Marcell Adam
 
 Elkin Montoya
+
 ##	Objetivos
 Este programa tiene como objetivo extraer data de scans de documentos con datos meteorológicos. Fue realizado durante el evento Hackathon CoAfina 2024 por el grupo D.N.D.
 
