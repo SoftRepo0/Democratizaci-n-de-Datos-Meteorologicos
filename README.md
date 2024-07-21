@@ -22,9 +22,13 @@ El programa implementa Tesseract OCR y aplica ideas de John Scancella [1]
 Fue probado con las siguientes dependencias:
 
   pytesseract  0.3.10 
+  
   pdf2image    1.17.0 
+  
   openCV       4.10.0.84 
+  
   Pillow       10.4.0 
+  
   NumPy        2.0.0
 	
 ##	Requerimientos
