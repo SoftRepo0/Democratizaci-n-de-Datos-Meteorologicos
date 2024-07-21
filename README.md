@@ -14,8 +14,6 @@ Elkin Montoya
 ##	Objetivos
 Este programa tiene como objetivo extraer data de scans de documentos con datos meteorológicos. Fue realizado durante el evento Hackathon CoAfina 2024 por el grupo D.N.D.
 
-
-
 El programa tambien es adaptable para buscar otros textos o caracteres en documentos con distinta precision.
 
 ##	Implementacion
@@ -29,7 +27,9 @@ Fue probado con las siguientes dependencias:
   NumPy        2.0.0
 	
 ##	Requerimientos
-Es necesario un compilador de C++ 17, Tesseract OCR y Pytesseract. El programa escaneará el archivo con el motor Tesseract implementado por Pytesseract, convertirlo en un archivo de texto, busca las coincidencias de éste con un diccionario 
+Es necesario un compilador de C++ 17, Tesseract OCR y Pytesseract. El programa escaneará el archivo con el motor Tesseract implementado por Pytesseract, convertirlo en un archivo de texto, busca las coincidencias de éste con un diccionario y escriba un archivo de resultados con una lista de las coincidencias y su posición en el archivo de texto.
+
+### Instrucciones
 
 Al correr el programa es necesario especificar el archivo a analizar y el diccionario de palabras a buscar en formato txt: "Palabras.txt". El programa distingue entre mayusculas y minusculas.
 
