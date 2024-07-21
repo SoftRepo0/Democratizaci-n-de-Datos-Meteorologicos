@@ -32,7 +32,7 @@ Fue probado con las siguientes dependencias:
   NumPy        2.0.0
 	
 ##	Requerimientos
-Es necesario un compilador de C++ 17, Tesseract OCR y Pytesseract. El programa escaneará el archivo con el motor Tesseract implementado por Pytesseract, convertirlo en un archivo de texto, busca las coincidencias de éste con un diccionario y escriba un archivo de resultados con una lista de las coincidencias y su posición en el archivo de texto.
+Es necesario un compilador de C++ 17, Tesseract OCR y Pytesseract. El programa escaneará el archivo con el motor Tesseract implementado por Pytesseract, lo convertirá en un archivo de texto, buscará las coincidencias de éste con un diccionario y escribirá un archivo de resultados con una lista de las coincidencias y su posición en el archivo de texto.
 
 ### Instrucciones
 
