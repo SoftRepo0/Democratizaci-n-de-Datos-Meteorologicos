@@ -43,22 +43,18 @@ y sucesivamente. 'a', 'b', 'c', etc. son los umbrales de precisión, separados d
 
 El programa creará un archivo llamado "nombre del archivo"_Resultado.txt con el siguiente formato:
 
-		Archivo: nombre del archivo
-		  Palabra: palabra1
-		    Fila  Columna
-          n1    n2
-          n3    n4
+	Archivo: nombre del archivo
+		Palabra: palabra1
+	    		Fila  Columna
+        		n1    n2
+       			n3    n4
   		Palabra:  palabra2
-		    Fila   Columna
-		      n5     n6   
-
+			Fila   Columna
+			n5     n6   
 
 ##	Referencias
 
 https://medium.com/@blacksmithforlife/better-ocr-for-newspapers-c7c1e2788b7a
 
-Las soluciones se encontrarÃ¡n en un directorio llamado Soluciones. Adicionalmente, en el directorio llamado Tiempos, encontrara un archivo con el tiempo que tomo resolver cada sudoku.
 ### Notas
-1) El archivo Instancia solo puede contener **un** sudoku a la vez, este tiene que estar en el formato anteriormente mencionado y todo en una sola lÃ­nea. Si desea resolver varios sudokus, siga el paso 6) de las instrucciones.
 
-2) EL programa zchaff usado fue la versiÃ³n de 32-bits, dicho programa **no** puede ser reemplazado por otra versiÃ³n.
