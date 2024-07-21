@@ -29,7 +29,7 @@ Fue probado con las siguientes dependencias:
   NumPy        2.0.0
 	
 ##	Requerimientos
-Es necesario un compilador de C++ 17. El programa escaneará el archivo con el motor Tesseract implementado por Pytesseract, convertirlo en un archivo de texto, busca las coincidencias de éste con un diccionario 
+Es necesario un compilador de C++ 17, Tesseract OCR y Pytesseract. El programa escaneará el archivo con el motor Tesseract implementado por Pytesseract, convertirlo en un archivo de texto, busca las coincidencias de éste con un diccionario 
 
 Al correr el programa es necesario especificar el archivo a analizar y el diccionario de palabras a buscar en formato txt: "Palabras.txt". El programa distingue entre mayusculas y minusculas.
 
@@ -51,28 +51,11 @@ El programa creará un archivo llamado "nombre del archivo"_Resultado.txt con el
   		Palabra:  palabra2
 		    Fila   Columna
 		      n5     n6   
-</requerimientos>
+
+
+##	Referencias
 
 https://medium.com/@blacksmithforlife/better-ocr-for-newspapers-c7c1e2788b7a
-
-
-
-### Instrucciones
-1) (Opcional) Cambie los permisos de los archivos bash para que sean ejecutables por el usuario:
-
-		chmod u+x Creador.sh
-		chmod u+x Solver.sh
-		chmod u+x Automatico.sh
-
-2) Ejecute el archivo Creador.sh.
-
-	
-
-El primer nÃºmero es el orden del sudoku. Seguido de un espacio, se encuentran los nÃºmeros de las casillas del tablero de sudoku separados por guiones, siguiendo el orden de izquierda a derecha y arriba hacia abajo, donde los 0 representan las casillas con espacios vacÃ­os.
-
-chivo Automatico.sh para resolverlos todos: 
-
-		./Automatico.sh
 
 Las soluciones se encontrarÃ¡n en un directorio llamado Soluciones. Adicionalmente, en el directorio llamado Tiempos, encontrara un archivo con el tiempo que tomo resolver cada sudoku.
 ### Notas
